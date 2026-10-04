@@ -1,0 +1,6 @@
+{
+  "name": "Lock In",
+  "description": "Daily startup engineering opportunity matcher with a Hinge and Bumble inspired swipe deck, real-time spreadsheet sync, and local Room persistence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

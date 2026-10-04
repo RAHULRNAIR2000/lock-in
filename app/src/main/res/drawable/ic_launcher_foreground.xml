@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Padlock shackle / arch -->
+    <path
+        android:pathData="M39,48 V37 C39,28.7 45.7,22 54,22 C62.3,22 69,28.7 69,37 V48"
+        android:strokeWidth="6"
+        android:strokeColor="#F5ECE4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Padlock main body with terracotta gradient -->
+    <path
+        android:pathData="M33,46 H75 C78.3,46 81,48.7 81,52 V79 C81,82.3 78.3,85 75,85 H33 C29.7,85 27,82.3 27,79 V52 C27,48.7 29.7,46 33,46 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="27"
+                android:startY="46"
+                android:endX="81"
+                android:endY="85"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#E07A5F" />
+                <item android:offset="1.0" android:color="#D96B43" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Star / Keyhole center symbol in cream/gold -->
+    <!-- 4-point star representing finding the matching role -->
+    <path
+        android:pathData="M54,55 L56.2,62.5 L63.5,64.8 L56.2,67.1 L54,74.5 L51.8,67.1 L44.5,64.8 L51.8,62.5 Z"
+        android:fillColor="#FFFDF9" />
+</vector>
